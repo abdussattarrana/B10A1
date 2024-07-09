@@ -157,18 +157,6 @@ body{
     opacity: 0.7;
     margin-bottom: 32px;
 }
-.learn-btn{
-    width: 171px;
-    height: 47px;
-    padding: 12px 20px 12px 20px;
-    box-sizing: border-box;
-    border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 18px;
-    font-weight: 800;
-}
 
 .why-1-right{
     width: 259.56px;
@@ -217,18 +205,6 @@ body{
     line-height: 26px;
     opacity: 0.7;
     margin-bottom: 32px;
-}
-.learn-btn{
-    width: 171px;
-    height: 47px;
-    padding: 12px 20px 12px 20px;
-    box-sizing: border-box;
-    border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 18px;
-    font-weight: 800;
 }
 
 .why-2-rl{
@@ -279,6 +255,12 @@ body{
     opacity: 0.7;
     margin-bottom: 32px;
 }
+
+.why-3-right{
+    width: 259.56px;
+    height: 217.01px;
+}
+
 .learn-btn{
     width: 171px;
     height: 47px;
@@ -290,11 +272,6 @@ body{
     font-family: Azeret Mono;
     font-size: 18px;
     font-weight: 800;
-}
-
-.why-3-right{
-    width: 259.56px;
-    height: 217.01px;
 }
 /* why-3 box ends here */
 
@@ -349,6 +326,140 @@ body{
 /* inspiration section style ends here */
 
 /* current-target section style starts here  */
+.current-target{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.current-target-container{}
+
+.current-target-text{
+    width: 852px;
+    height: 113px;
+    text-align: center;
+}
+.current-target-text h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+.current-target-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.current-target-box{
+    margin-top: 48px;
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.html{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.html-content h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+.html-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.css{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.css-content h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+.css-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.javascript{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.javascript-content h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+.javascript-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
 
 
+.learn-anchor{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
 /* current-target section style ends here */
