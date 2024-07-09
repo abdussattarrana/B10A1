@@ -29,7 +29,6 @@ body{
     width: 998px;
     height: 582px;
     margin: 0 auto;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,7 +60,6 @@ body{
     font-weight: 400;
     line-height: 26px;
 }
-
 .hero-btn{
     width: 208px;
     height: 66px;
@@ -74,3 +72,227 @@ body{
     margin: 32px 0px;
     border-radius: 8px;
 }
+
+/* main section style starts here */
+
+/* why-web-container section style starts here */
+.why-web-container{
+    width: 1140px;
+    height: 1393px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.why-web-content{
+    width: 946px;
+    height: 1233px;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.why-web-title{
+    width: 852px;
+    height: 113px;
+}
+.why-web-title h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+.why-web-title p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+/* why-1 box starts here */
+.why-1{
+    margin-top: 32px;
+    padding: 48px;
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    /* background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); */
+}
+.why-1-container{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.why-1-left{
+    width: 477px;
+    height: 219px;
+    text-align: left;
+}
+.why-1-left h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.why-1-left p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+.learn-btn{
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.why-1-right{
+    width: 259.56px;
+    height: 217.01px;
+}
+/* why-1 box ends here */
+
+/* why-2 box starts here */
+
+.why-2{
+    margin-top: 32px;
+    padding: 48px;
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    /* background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); */
+}
+.why-2-container{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.why-2-lr{
+    width: 477px;
+    height: 219px;
+    text-align: left;
+}
+.why-2-lr h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.why-2-lr p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+.learn-btn{
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.why-2-rl{
+    width: 259.56px;
+    height: 217.01px;
+}
+
+/* why-2 box ends here */
+
+/* why-3 box starts here */
+.why-3{
+    margin-top: 32px;
+    padding: 48px;
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    /* background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); */
+}
+.why-3-container{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.why-3-left{
+    width: 477px;
+    height: 219px;
+    text-align: left;
+}
+.why-3-left h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.why-3-left p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+.learn-btn{
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.why-3-right{
+    width: 259.56px;
+    height: 217.01px;
+}
+/* why-3 box ends here */
