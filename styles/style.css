@@ -72,6 +72,7 @@ body{
     margin: 32px 0px;
     border-radius: 8px;
 }
+/* hero section style ends here */
 
 /* main section style starts here */
 
@@ -296,3 +297,58 @@ body{
     height: 217.01px;
 }
 /* why-3 box ends here */
+
+/* why-web-container section style ends here */
+
+/* inspiration section style starts here */
+.inspiration{
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration-text{
+    width: 852px;
+    height: 113px;
+    text-align: center;
+}
+.inspiration-text h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+.inspiration-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.inspiration-video{
+    margin-top: 48px;
+    width: 1140px;
+    height: 614px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    
+}
+.inspiration-video-container iframe{
+    border-radius: 16px;
+}
+/* inspiration section style ends here */
+
+/* current-target section style starts here  */
+
+
+/* current-target section style ends here */
