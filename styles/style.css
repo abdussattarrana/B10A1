@@ -71,6 +71,7 @@ body{
     line-height: 23px;
     margin: 32px 0px;
     border-radius: 8px;
+    cursor: pointer;
 }
 /* hero section style ends here */
 
@@ -272,6 +273,7 @@ body{
     font-family: Azeret Mono;
     font-size: 18px;
     font-weight: 800;
+    cursor: pointer;
 }
 /* why-3 box ends here */
 
@@ -461,12 +463,13 @@ body{
     font-weight: 700;
     line-height: 19px;
     text-decoration-line: underline;
+    cursor: pointer;
 }
 /* current-target section style ends here */
 
 /* support section style starts here */
 .support{
-    margin: 0 auto;
+    margin-top: 80px;
     width: 1140px;
     height: 313px;
     background-image: url(/assets/handshake.jpg);
@@ -476,6 +479,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 16px;
     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
 }
 .support-container{
@@ -528,3 +532,21 @@ body{
 }
 /* support section style ends here */
 
+footer{
+    width: 1440px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text{
+    width: 656px;
+    height: 23px;
+}
+.footer-social{
+    width: 157.01px;
+    height: 36px;
+}
